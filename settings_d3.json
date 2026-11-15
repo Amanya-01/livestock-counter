@@ -1,0 +1,58 @@
+{
+  "SEED": 42,
+  "EPOCHS": 50,
+  "PATIENCE": 10,
+  "BATCH_BASE": 16,
+  "BATCH_HI": 16,
+  "IMGSZ_BASE": 640,
+  "IMGSZ_HI": 960,
+  "IOU_NMS": 0.7,
+  "CONF_REF": 0.25,
+  "TILE_GRID": [
+    512,
+    384
+  ],
+  "MERGE_IOU_GRID": [
+    0.5,
+    0.6
+  ],
+  "TILE_OVERLAP": 0.25,
+  "GATE_K_GRID": [
+    3,
+    5,
+    8
+  ],
+  "GATE_CONF": 0.3,
+  "N_BOOT_MAE": 2000,
+  "N_BOOT_AP": 200,
+  "tiling_B": {
+    "tile": 384,
+    "merge_iou": 0.6,
+    "max_area": null
+  },
+  "tiling_D": {
+    "tile": 512,
+    "merge_iou": 0.5,
+    "max_area": null
+  },
+  "tiling_E": {
+    "tile": 384,
+    "merge_iou": 0.6,
+    "max_area": 0.01
+  },
+  "tiling_F": {
+    "tile": 384,
+    "merge_iou": 0.6,
+    "max_area": 0.01,
+    "gate_k": 3,
+    "gate_conf": 0.3
+  },
+  "train_minutes_960": null,
+  "provenance": {
+    "splits_dir": "/kaggle/input/notebooks/amanyaedwin/deliverable-3/outputs/splits",
+    "baseline_weights": "/kaggle/input/notebooks/amanyaedwin/deliverable-2/outputs/weights/best.pt",
+    "weights_960": "/kaggle/input/notebooks/amanyaedwin/deliverable-3/runs/d3_yolov8n_960/weights/best.pt",
+    "weights_960_reused": true,
+    "dataset_source": "attached dataset /kaggle/input/notebooks/amanyaedwin/deliverable-3/livestock_dataset"
+  }
+}

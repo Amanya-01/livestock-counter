@@ -1,0 +1,25 @@
+Variant,herd,images,MAE,Bias
+A. Baseline (640 px),1 to 2,129,0.5736434108527132,0.40310077519379844
+A. Baseline (640 px),3 to 5,60,1.5,-0.2
+A. Baseline (640 px),6 to 10,21,2.857142857142857,-2.380952380952381
+A. Baseline (640 px),more than 10,15,4.2,-2.8666666666666667
+B. Baseline + tiling,1 to 2,129,0.7441860465116279,0.3875968992248062
+B. Baseline + tiling,3 to 5,60,1.7166666666666666,0.016666666666666666
+B. Baseline + tiling,6 to 10,21,2.857142857142857,-1.9047619047619047
+B. Baseline + tiling,more than 10,15,4.333333333333333,-2.2
+C. Higher resolution (960 px),1 to 2,129,1.248062015503876,1.1550387596899225
+C. Higher resolution (960 px),3 to 5,60,1.45,0.6166666666666667
+C. Higher resolution (960 px),6 to 10,21,3.142857142857143,-2.5714285714285716
+C. Higher resolution (960 px),more than 10,15,4.466666666666667,-3.8
+D. Higher resolution + tiling,1 to 2,129,0.8914728682170543,0.4263565891472868
+D. Higher resolution + tiling,3 to 5,60,1.4333333333333333,-0.43333333333333335
+D. Higher resolution + tiling,6 to 10,21,3.0,-2.9047619047619047
+D. Higher resolution + tiling,more than 10,15,4.133333333333334,-4.0
+E. Baseline + size-aware tiling,1 to 2,129,0.7441860465116279,0.4806201550387597
+E. Baseline + size-aware tiling,3 to 5,60,1.9666666666666666,0.23333333333333334
+E. Baseline + size-aware tiling,6 to 10,21,2.9523809523809526,-2.0
+E. Baseline + size-aware tiling,more than 10,15,3.7333333333333334,-0.5333333333333333
+F. Baseline + gated size-aware tiling,1 to 2,129,0.7131782945736435,0.49612403100775193
+F. Baseline + gated size-aware tiling,3 to 5,60,1.8333333333333333,0.06666666666666667
+F. Baseline + gated size-aware tiling,6 to 10,21,2.9523809523809526,-1.5238095238095237
+F. Baseline + gated size-aware tiling,more than 10,15,4.4,0.4

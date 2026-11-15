@@ -1,0 +1,9 @@
+- Best improved variant on validation: F. Baseline + gated size-aware tiling. Configuration deployed: F. Baseline + gated size-aware tiling.
+- Small-animal recall at the chosen thresholds: 0.48 for the baseline and 0.66 for F. Baseline + gated size-aware tiling; precision changes from 0.62 to 0.59.
+- Overall counting MAE: 1.28 to 1.47 (change +0.19, 95% interval -0.07 to +0.43): not clearly different from the baseline.
+- MAE on photos with more than 5 animals: 3.42 to 3.56 (change +0.14, interval -1.28 to +1.31): not clearly different from the baseline.
+- Mean AP@50 change +0.015 (interval -0.023 to +0.050): not clearly different from the baseline.
+- Counting MAE by herd size is lower than the baseline for: no group; higher for: 1 to 2, 3 to 5, 6 to 10, more than 10.
+- Classes with a lower AP@50 than the baseline: Sheep.
+- Higher resolution alone (variant C) gives mean AP@50 0.477 against 0.560 for the baseline.
+- Cost: 8.1 times the CPU time and 4.1 times the GPU time per image of the baseline.

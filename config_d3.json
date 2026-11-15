@@ -1,0 +1,18 @@
+{
+  "selected_variant": "F. Baseline + gated size-aware tiling",
+  "weights": "weights/proposed_best.pt",
+  "classes": [
+    "Cattle",
+    "Goat",
+    "Sheep"
+  ],
+  "imgsz": 640,
+  "conf": 0.35,
+  "iou": 0.7,
+  "tile": 384,
+  "overlap": 0.25,
+  "merge_iou": 0.6,
+  "tile_max_area": 0.01,
+  "gate_k": 3,
+  "gate_conf": 0.3
+}
