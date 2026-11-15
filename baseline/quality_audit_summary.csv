@@ -1,0 +1,11 @@
+Check,Count
+Images audited,1500
+Unreadable images,0
+Images with no label file,0
+Images with no valid boxes,0
+Malformed / out-of-range label lines (dropped),0
+Duplicate file names,0
+Duplicate images (same hash),0
+Images containing tiny boxes (<0.05% of image),46
+Images containing a possible group box (area >= 40%),447
+IMAGES KEPT,1500

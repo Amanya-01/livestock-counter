@@ -1,0 +1,5 @@
+Split,Images,Boxes,Cattle boxes,Goat boxes,Sheep boxes,Boxes/image
+train,1050,3788,2561,497,730,3.61
+val,225,819,518,86,215,3.64
+test,225,830,574,100,156,3.69
+TOTAL,1500,5437,3653,683,1101,3.62

@@ -1,0 +1,4 @@
+True class,predicted as Cattle,predicted as Goat,predicted as Sheep,missed (background)
+Cattle,63.8,2.4,1.9,31.9
+Goat,12.0,52.0,6.0,30.0
+Sheep,7.7,5.8,51.9,34.6

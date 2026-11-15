@@ -1,0 +1,5 @@
+image,gt_total,gt_Cattle,gt_Goat,gt_Sheep,max_box_area,group_flag,pred_Cattle,pred_Goat,pred_Sheep,pred_total,error,abs_error
+a508c9f38bd589c5.jpg,52,52,0,0,0.122571875,False,29,0,0,29,-23,23
+ce5b35b756aa7f33.jpg,4,2,2,0,0.711690915,True,20,1,0,21,17,17
+dcd58dbfeef7b6e8.jpg,2,0,0,2,0.8295596075519999,True,3,5,2,10,8,8
+5e230d318b281174.jpg,1,0,0,1,0.10142163624999999,False,9,0,0,9,8,8

@@ -1,0 +1,11 @@
+Measure,Value
+Images timed,100
+Pre-processing (ms),1.72
+Inference (ms),11.87
+Post-processing (ms),1.22
+End-to-end per image (ms),22.62
+Throughput (images/s),44.21
+Parameters (million),3.14
+Weights file size (MB),6.48
+Peak GPU memory (MB),156.4
+Device,Tesla T4
