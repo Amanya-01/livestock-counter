@@ -7,7 +7,7 @@ Unzip `deliverable3_package.zip` (from the Kaggle notebook). Copy these four fil
 
     app.py   run_app.bat   requirements.txt   README_APP.md
 
-The folder must then contain: `app.py`, `pipeline.py`, `config_d3.json` and `weights/proposed_best.pt`.
+The folder must then contain: `app.py`, `pipeline.py`, `config_d3.json` and `../models/proposed_best.pt`.
 
 ## 2. Install (first time only, needs internet)
 1. Install Python 3.10 to 3.12 from python.org (tick "Add Python to PATH").

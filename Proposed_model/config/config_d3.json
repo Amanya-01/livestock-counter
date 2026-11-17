@@ -1,6 +1,6 @@
 {
   "selected_variant": "F. Baseline + gated size-aware tiling",
-  "weights": "weights/proposed_best.pt",
+  "weights": "models/proposed_best.pt",
   "classes": [
     "Cattle",
     "Goat",

@@ -15,9 +15,9 @@ _STATE = {}
 
 
 def load_config():
-    cfg_path = HERE / "config_d3.json"
+    cfg_path = HERE.parent / "config" / "config_d3.json"
     if not cfg_path.exists():
-        raise FileNotFoundError("config_d3.json not found next to app.py. Copy app.py into the unzipped deliverable3_package folder.")
+        raise FileNotFoundError("config_d3.json not found in the Proposed_model/config folder.")
     return json.loads(cfg_path.read_text())
 
 
@@ -26,7 +26,7 @@ def load_model():
     if "model" not in _STATE:
         from ultralytics import YOLO
         cfg = load_config()
-        weights = HERE / cfg["weights"]
+        weights = HERE.parent / cfg["weights"]
         if not weights.exists():
             raise FileNotFoundError(f"Model file not found: {weights}")
         _STATE["model"] = YOLO(str(weights))
